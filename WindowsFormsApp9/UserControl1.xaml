@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="WindowsFormsApp9.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WindowsFormsApp9"
+             xmlns:helix="http://helix-toolkit.org/wpf"
+             mc:Ignorable="d" 
+             d:DesignHeight="283" d:DesignWidth="779">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="139*"/>
+            <RowDefinition Height="144*"/>
+        </Grid.RowDefinitions>
+        <helix:HelixViewport3D x:Name="viewPort3d" ZoomExtentsWhenLoaded="True" BorderBrush="Gray" BorderThickness="3" ShowCoordinateSystem="True" Grid.RowSpan="2" >
+            <helix:GridLinesVisual3D Width="250" Length="250" Thickness="0.06" MinorDistance="4" MajorDistance="5" Fill="DarkSlateGray"/>
+            <helix:DefaultLights/>
+        </helix:HelixViewport3D>
+    </Grid>
+</UserControl>
