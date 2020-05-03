@@ -320,9 +320,9 @@
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.Location = new System.Drawing.Point(158, 81);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(38, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(42, 19);
             this.metroLabel1.TabIndex = 11;
-            this.metroLabel1.Text = "Vai a";
+            this.metroLabel1.Text = "Go to";
             this.metroLabel1.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // Default
@@ -445,7 +445,7 @@
             this.Chiudi.Name = "Chiudi";
             this.Chiudi.Size = new System.Drawing.Size(103, 24);
             this.Chiudi.TabIndex = 52;
-            this.Chiudi.Text = "Chiudi";
+            this.Chiudi.Text = "Close";
             this.Chiudi.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Chiudi.UseSelectable = true;
             this.Chiudi.Click += new System.EventHandler(this.Chiudi_Click);
@@ -455,9 +455,9 @@
             this.Contatore.AutoSize = true;
             this.Contatore.Location = new System.Drawing.Point(372, 302);
             this.Contatore.Name = "Contatore";
-            this.Contatore.Size = new System.Drawing.Size(76, 15);
+            this.Contatore.Size = new System.Drawing.Size(66, 15);
             this.Contatore.TabIndex = 53;
-            this.Contatore.Text = "Contatore";
+            this.Contatore.Text = "Counter";
             this.Contatore.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Contatore.UseSelectable = true;
             this.Contatore.CheckedChanged += new System.EventHandler(this.Contatore_CheckedChanged);
@@ -1122,7 +1122,7 @@
             this.Name = "Form3";
             this.Resizable = false;
             this.Style = MetroFramework.MetroColorStyle.Silver;
-            this.Text = "Vai a";
+            this.Text = "Go to";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.ResumeLayout(false);
             this.PerformLayout();

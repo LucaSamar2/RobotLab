@@ -136,7 +136,6 @@ namespace WindowsFormsApp9
             this.metroTextBox9 = new MetroFramework.Controls.MetroTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.Programma2 = new MetroFramework.Controls.MetroTabPage();
             this.RobotEnabled = new MetroFramework.Controls.MetroToggle();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
@@ -144,16 +143,15 @@ namespace WindowsFormsApp9
             this.elementHost2 = new System.Windows.Forms.Integration.ElementHost();
             this.userControl11 = new WindowsFormsApp9.UserControl1();
             this.Tabprincipale = new MetroFramework.Controls.MetroTabControl();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.metroTextBox12 = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+            this.metroTextBox12 = new MetroFramework.Controls.MetroTextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.Esecuzione.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.Impostazioni.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.Programma2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -168,7 +166,7 @@ namespace WindowsFormsApp9
             this.Arduino.Name = "Arduino";
             this.Arduino.Size = new System.Drawing.Size(179, 23);
             this.Arduino.TabIndex = 33;
-            this.Arduino.Text = "Crea Programma Per Arduino";
+            this.Arduino.Text = "Generate Arduino program";
             this.Arduino.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Arduino.UseSelectable = true;
             this.Arduino.Click += new System.EventHandler(this.Arduino_Click);
@@ -414,7 +412,7 @@ namespace WindowsFormsApp9
             this.groupBox1.Size = new System.Drawing.Size(156, 111);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Aggiungi";
+            this.groupBox1.Text = "Add movement";
             // 
             // metroButton2
             // 
@@ -422,7 +420,7 @@ namespace WindowsFormsApp9
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(75, 23);
             this.metroButton2.TabIndex = 1;
-            this.metroButton2.Text = "JOINT";
+            this.metroButton2.Text = "PTP";
             this.metroButton2.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton2.UseSelectable = true;
             this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
@@ -434,7 +432,7 @@ namespace WindowsFormsApp9
             this.metroButton1.Size = new System.Drawing.Size(75, 23);
             this.metroButton1.Style = MetroFramework.MetroColorStyle.Silver;
             this.metroButton1.TabIndex = 0;
-            this.metroButton1.Text = "LINEA";
+            this.metroButton1.Text = "LINEAR";
             this.metroButton1.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton1.UseSelectable = true;
             this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
@@ -862,7 +860,7 @@ namespace WindowsFormsApp9
             this.metroButton41.Name = "metroButton41";
             this.metroButton41.Size = new System.Drawing.Size(115, 23);
             this.metroButton41.TabIndex = 29;
-            this.metroButton41.Text = "Nuovo Programma";
+            this.metroButton41.Text = "New Program";
             this.metroButton41.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton41.UseSelectable = true;
             this.metroButton41.Click += new System.EventHandler(this.metroButton41_Click);
@@ -873,7 +871,7 @@ namespace WindowsFormsApp9
             this.metroButton42.Name = "metroButton42";
             this.metroButton42.Size = new System.Drawing.Size(115, 23);
             this.metroButton42.TabIndex = 30;
-            this.metroButton42.Text = "Apri Programma";
+            this.metroButton42.Text = "Open Program";
             this.metroButton42.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton42.UseSelectable = true;
             this.metroButton42.Click += new System.EventHandler(this.metroButton42_Click);
@@ -884,7 +882,7 @@ namespace WindowsFormsApp9
             this.metroButton43.Name = "metroButton43";
             this.metroButton43.Size = new System.Drawing.Size(115, 23);
             this.metroButton43.TabIndex = 31;
-            this.metroButton43.Text = "Salva Programma";
+            this.metroButton43.Text = "Save Program";
             this.metroButton43.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton43.UseSelectable = true;
             this.metroButton43.Click += new System.EventHandler(this.metroButton43_Click);
@@ -895,31 +893,31 @@ namespace WindowsFormsApp9
             this.metroButton44.Name = "metroButton44";
             this.metroButton44.Size = new System.Drawing.Size(106, 23);
             this.metroButton44.TabIndex = 32;
-            this.metroButton44.Text = "Impostazioni";
+            this.metroButton44.Text = "Settings";
             this.metroButton44.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton44.UseSelectable = true;
             this.metroButton44.Click += new System.EventHandler(this.metroButton44_Click);
             // 
             // metroButton45
             // 
-            this.metroButton45.Location = new System.Drawing.Point(465, 178);
+            this.metroButton45.Location = new System.Drawing.Point(483, 174);
             this.metroButton45.Name = "metroButton45";
             this.metroButton45.Size = new System.Drawing.Size(115, 23);
             this.metroButton45.Style = MetroFramework.MetroColorStyle.Silver;
             this.metroButton45.TabIndex = 33;
-            this.metroButton45.Text = "Aggiungi Tempo";
+            this.metroButton45.Text = "Add timer";
             this.metroButton45.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton45.UseSelectable = true;
             this.metroButton45.Click += new System.EventHandler(this.metroButton45_Click);
             // 
             // metroButton46
             // 
-            this.metroButton46.Location = new System.Drawing.Point(317, 178);
+            this.metroButton46.Location = new System.Drawing.Point(483, 130);
             this.metroButton46.Name = "metroButton46";
             this.metroButton46.Size = new System.Drawing.Size(115, 23);
             this.metroButton46.Style = MetroFramework.MetroColorStyle.Silver;
             this.metroButton46.TabIndex = 34;
-            this.metroButton46.Text = "Vai a istruzione";
+            this.metroButton46.Text = "Go to instruction";
             this.metroButton46.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton46.UseSelectable = true;
             this.metroButton46.Click += new System.EventHandler(this.metroButton46_Click);
@@ -1094,10 +1092,10 @@ namespace WindowsFormsApp9
             this.metroLabel2.AutoSize = true;
             this.metroLabel2.Location = new System.Drawing.Point(981, 200);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(98, 19);
+            this.metroLabel2.Size = new System.Drawing.Size(89, 19);
             this.metroLabel2.Style = MetroFramework.MetroColorStyle.Silver;
             this.metroLabel2.TabIndex = 7;
-            this.metroLabel2.Text = "  Accelerazione";
+            this.metroLabel2.Text = "  Acceleration";
             this.metroLabel2.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // metroLabel24
@@ -1138,16 +1136,16 @@ namespace WindowsFormsApp9
             this.metroLabel3.AutoSize = true;
             this.metroLabel3.Location = new System.Drawing.Point(856, 200);
             this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(55, 19);
+            this.metroLabel3.Size = new System.Drawing.Size(46, 19);
             this.metroLabel3.Style = MetroFramework.MetroColorStyle.Silver;
             this.metroLabel3.TabIndex = 8;
-            this.metroLabel3.Text = "Velocità";
+            this.metroLabel3.Text = "Speed";
             this.metroLabel3.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // metroLabel30
             // 
             this.metroLabel30.AutoSize = true;
-            this.metroLabel30.Location = new System.Drawing.Point(554, 211);
+            this.metroLabel30.Location = new System.Drawing.Point(572, 207);
             this.metroLabel30.Name = "metroLabel30";
             this.metroLabel30.Size = new System.Drawing.Size(26, 19);
             this.metroLabel30.Style = MetroFramework.MetroColorStyle.Silver;
@@ -1301,7 +1299,7 @@ namespace WindowsFormsApp9
             this.metroTextBox11.CustomButton.UseSelectable = true;
             this.metroTextBox11.CustomButton.Visible = false;
             this.metroTextBox11.Lines = new string[0];
-            this.metroTextBox11.Location = new System.Drawing.Point(465, 211);
+            this.metroTextBox11.Location = new System.Drawing.Point(483, 207);
             this.metroTextBox11.MaxLength = 32767;
             this.metroTextBox11.Name = "metroTextBox11";
             this.metroTextBox11.PasswordChar = '\0';
@@ -1612,15 +1610,6 @@ namespace WindowsFormsApp9
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox2_Paint_1);
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(282, 82);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(312, 75);
-            this.pictureBox3.TabIndex = 33;
-            this.pictureBox3.TabStop = false;
-            // 
             // Programma2
             // 
             this.Programma2.Controls.Add(this.metroLabel16);
@@ -1648,7 +1637,7 @@ namespace WindowsFormsApp9
             this.Programma2.Name = "Programma2";
             this.Programma2.Size = new System.Drawing.Size(338, 196);
             this.Programma2.TabIndex = 0;
-            this.Programma2.Text = "Cartesiano      ";
+            this.Programma2.Text = "Cartesian           ";
             this.Programma2.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Programma2.VerticalScrollbarBarColor = true;
             this.Programma2.VerticalScrollbarHighlightOnWheel = false;
@@ -1682,8 +1671,12 @@ namespace WindowsFormsApp9
             this.splitContainer1.Panel1.Controls.Add(this.elementHost2);
             this.splitContainer1.Panel1.Controls.Add(this.metroLabel25);
             this.splitContainer1.Panel1.Controls.Add(this.metroLabel24);
+            this.splitContainer1.Panel1.Controls.Add(this.metroLabel30);
             this.splitContainer1.Panel1.Controls.Add(this.metroLabel17);
             this.splitContainer1.Panel1.Controls.Add(this.metroProgressBar1);
+            this.splitContainer1.Panel1.Controls.Add(this.metroTextBox11);
+            this.splitContainer1.Panel1.Controls.Add(this.metroButton46);
+            this.splitContainer1.Panel1.Controls.Add(this.metroButton45);
             this.splitContainer1.Panel1.Controls.Add(this.metroTextBox10);
             this.splitContainer1.Panel1.Controls.Add(this.metroButton17);
             this.splitContainer1.Panel1.Controls.Add(this.metroLabel10);
@@ -1713,13 +1706,8 @@ namespace WindowsFormsApp9
             // 
             this.splitContainer1.Panel2.Controls.Add(this.metroLabel4);
             this.splitContainer1.Panel2.Controls.Add(this.metroTextBox12);
-            this.splitContainer1.Panel2.Controls.Add(this.pictureBox3);
             this.splitContainer1.Panel2.Controls.Add(this.Arduino);
-            this.splitContainer1.Panel2.Controls.Add(this.metroLabel30);
             this.splitContainer1.Panel2.Controls.Add(this.metroButton37);
-            this.splitContainer1.Panel2.Controls.Add(this.metroButton46);
-            this.splitContainer1.Panel2.Controls.Add(this.metroTextBox11);
-            this.splitContainer1.Panel2.Controls.Add(this.metroButton45);
             this.splitContainer1.Panel2.Controls.Add(this.metroCheckBox1);
             this.splitContainer1.Panel2.Controls.Add(this.metroButton4);
             this.splitContainer1.Panel2.Controls.Add(this.metroButton36);
@@ -1737,9 +1725,9 @@ namespace WindowsFormsApp9
             // 
             // elementHost2
             // 
-            this.elementHost2.Location = new System.Drawing.Point(20, 292);
+            this.elementHost2.Location = new System.Drawing.Point(20, 272);
             this.elementHost2.Name = "elementHost2";
-            this.elementHost2.Size = new System.Drawing.Size(1186, 601);
+            this.elementHost2.Size = new System.Drawing.Size(1186, 621);
             this.elementHost2.TabIndex = 33;
             this.elementHost2.Text = "elementHost2";
             this.elementHost2.ChildChanged += new System.EventHandler<System.Windows.Forms.Integration.ChildChangedEventArgs>(this.elementHost2_ChildChanged);
@@ -1752,16 +1740,22 @@ namespace WindowsFormsApp9
             this.Tabprincipale.Controls.Add(this.Impostazioni);
             this.Tabprincipale.Location = new System.Drawing.Point(88, 19);
             this.Tabprincipale.Name = "Tabprincipale";
-            this.Tabprincipale.SelectedIndex = 1;
+            this.Tabprincipale.SelectedIndex = 0;
             this.Tabprincipale.Size = new System.Drawing.Size(346, 238);
             this.Tabprincipale.TabIndex = 2;
             this.Tabprincipale.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Tabprincipale.UseSelectable = true;
             // 
-            // timer1
+            // metroLabel4
             // 
-            this.timer1.Interval = 20;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.metroLabel4.AutoSize = true;
+            this.metroLabel4.Location = new System.Drawing.Point(328, 10);
+            this.metroLabel4.Name = "metroLabel4";
+            this.metroLabel4.Size = new System.Drawing.Size(79, 19);
+            this.metroLabel4.Style = MetroFramework.MetroColorStyle.Silver;
+            this.metroLabel4.TabIndex = 36;
+            this.metroLabel4.Text = "linearization";
+            this.metroLabel4.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // metroTextBox12
             // 
@@ -1798,16 +1792,10 @@ namespace WindowsFormsApp9
             this.metroTextBox12.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBox12.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // metroLabel4
+            // timer1
             // 
-            this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(328, 10);
-            this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(94, 19);
-            this.metroLabel4.Style = MetroFramework.MetroColorStyle.Silver;
-            this.metroLabel4.TabIndex = 36;
-            this.metroLabel4.Text = "linearizzazione";
-            this.metroLabel4.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.timer1.Interval = 20;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -1840,7 +1828,6 @@ namespace WindowsFormsApp9
             this.Impostazioni.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.Programma2.ResumeLayout(false);
             this.Programma2.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);
@@ -1958,7 +1945,6 @@ namespace WindowsFormsApp9
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.Timer timer1;
         private UserControl1 userControl11;

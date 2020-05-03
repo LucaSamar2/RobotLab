@@ -29,27 +29,6 @@
         private void InitializeComponent()
         {
             this.Limiti = new MetroFramework.Controls.MetroTabControl();
-            this.metroTabPage2 = new MetroFramework.Controls.MetroTabPage();
-            this.metroLabel16 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel15 = new MetroFramework.Controls.MetroLabel();
-            this.Limite6min = new MetroFramework.Controls.MetroTextBox();
-            this.Limite5min = new MetroFramework.Controls.MetroTextBox();
-            this.Limite4min = new MetroFramework.Controls.MetroTextBox();
-            this.Limite3min = new MetroFramework.Controls.MetroTextBox();
-            this.Limite2min = new MetroFramework.Controls.MetroTextBox();
-            this.Limite1min = new MetroFramework.Controls.MetroTextBox();
-            this.Limite6max = new MetroFramework.Controls.MetroTextBox();
-            this.Limite5max = new MetroFramework.Controls.MetroTextBox();
-            this.Limite4max = new MetroFramework.Controls.MetroTextBox();
-            this.Limite3max = new MetroFramework.Controls.MetroTextBox();
-            this.Limite2max = new MetroFramework.Controls.MetroTextBox();
-            this.Limite1max = new MetroFramework.Controls.MetroTextBox();
-            this.LimiteAsse6 = new MetroFramework.Controls.MetroLabel();
-            this.LimiteAsse5 = new MetroFramework.Controls.MetroLabel();
-            this.LimiteAsse4 = new MetroFramework.Controls.MetroLabel();
-            this.LimiteAsse3 = new MetroFramework.Controls.MetroLabel();
-            this.LimiteAsse2 = new MetroFramework.Controls.MetroLabel();
-            this.LimiteAsse1 = new MetroFramework.Controls.MetroLabel();
             this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
             this.Modifiche2D = new MetroFramework.Controls.MetroCheckBox();
             this.metroLabel14 = new MetroFramework.Controls.MetroLabel();
@@ -82,14 +61,35 @@
             this.D2 = new MetroFramework.Controls.MetroTextBox();
             this.A1 = new MetroFramework.Controls.MetroTextBox();
             this.D1 = new MetroFramework.Controls.MetroTextBox();
+            this.metroTabPage2 = new MetroFramework.Controls.MetroTabPage();
+            this.metroLabel16 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel15 = new MetroFramework.Controls.MetroLabel();
+            this.Limite6min = new MetroFramework.Controls.MetroTextBox();
+            this.Limite5min = new MetroFramework.Controls.MetroTextBox();
+            this.Limite4min = new MetroFramework.Controls.MetroTextBox();
+            this.Limite3min = new MetroFramework.Controls.MetroTextBox();
+            this.Limite2min = new MetroFramework.Controls.MetroTextBox();
+            this.Limite1min = new MetroFramework.Controls.MetroTextBox();
+            this.Limite6max = new MetroFramework.Controls.MetroTextBox();
+            this.Limite5max = new MetroFramework.Controls.MetroTextBox();
+            this.Limite4max = new MetroFramework.Controls.MetroTextBox();
+            this.Limite3max = new MetroFramework.Controls.MetroTextBox();
+            this.Limite2max = new MetroFramework.Controls.MetroTextBox();
+            this.Limite1max = new MetroFramework.Controls.MetroTextBox();
+            this.LimiteAsse6 = new MetroFramework.Controls.MetroLabel();
+            this.LimiteAsse5 = new MetroFramework.Controls.MetroLabel();
+            this.LimiteAsse4 = new MetroFramework.Controls.MetroLabel();
+            this.LimiteAsse3 = new MetroFramework.Controls.MetroLabel();
+            this.LimiteAsse2 = new MetroFramework.Controls.MetroLabel();
+            this.LimiteAsse1 = new MetroFramework.Controls.MetroLabel();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.metroLabel13 = new MetroFramework.Controls.MetroLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.Limiti.SuspendLayout();
-            this.metroTabPage2.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.metroTile1.SuspendLayout();
+            this.metroTabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // Limiti
@@ -98,542 +98,12 @@
             this.Limiti.Controls.Add(this.metroTabPage2);
             this.Limiti.Location = new System.Drawing.Point(23, 63);
             this.Limiti.Name = "Limiti";
-            this.Limiti.SelectedIndex = 1;
+            this.Limiti.SelectedIndex = 0;
             this.Limiti.Size = new System.Drawing.Size(374, 310);
             this.Limiti.Style = MetroFramework.MetroColorStyle.Red;
             this.Limiti.TabIndex = 0;
             this.Limiti.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Limiti.UseSelectable = true;
-            // 
-            // metroTabPage2
-            // 
-            this.metroTabPage2.Controls.Add(this.metroLabel16);
-            this.metroTabPage2.Controls.Add(this.metroLabel15);
-            this.metroTabPage2.Controls.Add(this.Limite6min);
-            this.metroTabPage2.Controls.Add(this.Limite5min);
-            this.metroTabPage2.Controls.Add(this.Limite4min);
-            this.metroTabPage2.Controls.Add(this.Limite3min);
-            this.metroTabPage2.Controls.Add(this.Limite2min);
-            this.metroTabPage2.Controls.Add(this.Limite1min);
-            this.metroTabPage2.Controls.Add(this.Limite6max);
-            this.metroTabPage2.Controls.Add(this.Limite5max);
-            this.metroTabPage2.Controls.Add(this.Limite4max);
-            this.metroTabPage2.Controls.Add(this.Limite3max);
-            this.metroTabPage2.Controls.Add(this.Limite2max);
-            this.metroTabPage2.Controls.Add(this.Limite1max);
-            this.metroTabPage2.Controls.Add(this.LimiteAsse6);
-            this.metroTabPage2.Controls.Add(this.LimiteAsse5);
-            this.metroTabPage2.Controls.Add(this.LimiteAsse4);
-            this.metroTabPage2.Controls.Add(this.LimiteAsse3);
-            this.metroTabPage2.Controls.Add(this.LimiteAsse2);
-            this.metroTabPage2.Controls.Add(this.LimiteAsse1);
-            this.metroTabPage2.HorizontalScrollbarBarColor = true;
-            this.metroTabPage2.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage2.HorizontalScrollbarSize = 10;
-            this.metroTabPage2.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage2.Name = "metroTabPage2";
-            this.metroTabPage2.Size = new System.Drawing.Size(366, 268);
-            this.metroTabPage2.TabIndex = 1;
-            this.metroTabPage2.Text = "Limiti                                 ";
-            this.metroTabPage2.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroTabPage2.VerticalScrollbarBarColor = true;
-            this.metroTabPage2.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage2.VerticalScrollbarSize = 10;
-            this.metroTabPage2.Click += new System.EventHandler(this.metroTabPage2_Click);
-            // 
-            // metroLabel16
-            // 
-            this.metroLabel16.AutoSize = true;
-            this.metroLabel16.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel16.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroLabel16.Location = new System.Drawing.Point(208, 26);
-            this.metroLabel16.Name = "metroLabel16";
-            this.metroLabel16.Size = new System.Drawing.Size(41, 25);
-            this.metroLabel16.Style = MetroFramework.MetroColorStyle.Silver;
-            this.metroLabel16.TabIndex = 21;
-            this.metroLabel16.Text = "Min";
-            this.metroLabel16.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroLabel15
-            // 
-            this.metroLabel15.AutoSize = true;
-            this.metroLabel15.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel15.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroLabel15.Location = new System.Drawing.Point(129, 26);
-            this.metroLabel15.Name = "metroLabel15";
-            this.metroLabel15.Size = new System.Drawing.Size(44, 25);
-            this.metroLabel15.Style = MetroFramework.MetroColorStyle.Silver;
-            this.metroLabel15.TabIndex = 20;
-            this.metroLabel15.Text = "Max";
-            this.metroLabel15.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // Limite6min
-            // 
-            // 
-            // 
-            // 
-            this.Limite6min.CustomButton.Image = null;
-            this.Limite6min.CustomButton.Location = new System.Drawing.Point(53, 1);
-            this.Limite6min.CustomButton.Name = "";
-            this.Limite6min.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.Limite6min.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.Limite6min.CustomButton.TabIndex = 1;
-            this.Limite6min.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.Limite6min.CustomButton.UseSelectable = true;
-            this.Limite6min.CustomButton.Visible = false;
-            this.Limite6min.Lines = new string[] {
-        "0"};
-            this.Limite6min.Location = new System.Drawing.Point(189, 200);
-            this.Limite6min.MaxLength = 32767;
-            this.Limite6min.Name = "Limite6min";
-            this.Limite6min.PasswordChar = '\0';
-            this.Limite6min.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.Limite6min.SelectedText = "";
-            this.Limite6min.SelectionLength = 0;
-            this.Limite6min.SelectionStart = 0;
-            this.Limite6min.ShortcutsEnabled = true;
-            this.Limite6min.Size = new System.Drawing.Size(75, 23);
-            this.Limite6min.Style = MetroFramework.MetroColorStyle.Red;
-            this.Limite6min.TabIndex = 19;
-            this.Limite6min.Text = "0";
-            this.Limite6min.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.Limite6min.UseSelectable = true;
-            this.Limite6min.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.Limite6min.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // Limite5min
-            // 
-            // 
-            // 
-            // 
-            this.Limite5min.CustomButton.Image = null;
-            this.Limite5min.CustomButton.Location = new System.Drawing.Point(53, 1);
-            this.Limite5min.CustomButton.Name = "";
-            this.Limite5min.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.Limite5min.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.Limite5min.CustomButton.TabIndex = 1;
-            this.Limite5min.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.Limite5min.CustomButton.UseSelectable = true;
-            this.Limite5min.CustomButton.Visible = false;
-            this.Limite5min.Lines = new string[] {
-        "0"};
-            this.Limite5min.Location = new System.Drawing.Point(189, 171);
-            this.Limite5min.MaxLength = 32767;
-            this.Limite5min.Name = "Limite5min";
-            this.Limite5min.PasswordChar = '\0';
-            this.Limite5min.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.Limite5min.SelectedText = "";
-            this.Limite5min.SelectionLength = 0;
-            this.Limite5min.SelectionStart = 0;
-            this.Limite5min.ShortcutsEnabled = true;
-            this.Limite5min.Size = new System.Drawing.Size(75, 23);
-            this.Limite5min.Style = MetroFramework.MetroColorStyle.Red;
-            this.Limite5min.TabIndex = 18;
-            this.Limite5min.Text = "0";
-            this.Limite5min.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.Limite5min.UseSelectable = true;
-            this.Limite5min.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.Limite5min.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // Limite4min
-            // 
-            // 
-            // 
-            // 
-            this.Limite4min.CustomButton.Image = null;
-            this.Limite4min.CustomButton.Location = new System.Drawing.Point(53, 1);
-            this.Limite4min.CustomButton.Name = "";
-            this.Limite4min.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.Limite4min.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.Limite4min.CustomButton.TabIndex = 1;
-            this.Limite4min.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.Limite4min.CustomButton.UseSelectable = true;
-            this.Limite4min.CustomButton.Visible = false;
-            this.Limite4min.Lines = new string[] {
-        "0"};
-            this.Limite4min.Location = new System.Drawing.Point(189, 142);
-            this.Limite4min.MaxLength = 32767;
-            this.Limite4min.Name = "Limite4min";
-            this.Limite4min.PasswordChar = '\0';
-            this.Limite4min.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.Limite4min.SelectedText = "";
-            this.Limite4min.SelectionLength = 0;
-            this.Limite4min.SelectionStart = 0;
-            this.Limite4min.ShortcutsEnabled = true;
-            this.Limite4min.Size = new System.Drawing.Size(75, 23);
-            this.Limite4min.Style = MetroFramework.MetroColorStyle.Red;
-            this.Limite4min.TabIndex = 17;
-            this.Limite4min.Text = "0";
-            this.Limite4min.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.Limite4min.UseSelectable = true;
-            this.Limite4min.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.Limite4min.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // Limite3min
-            // 
-            // 
-            // 
-            // 
-            this.Limite3min.CustomButton.Image = null;
-            this.Limite3min.CustomButton.Location = new System.Drawing.Point(53, 1);
-            this.Limite3min.CustomButton.Name = "";
-            this.Limite3min.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.Limite3min.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.Limite3min.CustomButton.TabIndex = 1;
-            this.Limite3min.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.Limite3min.CustomButton.UseSelectable = true;
-            this.Limite3min.CustomButton.Visible = false;
-            this.Limite3min.Lines = new string[] {
-        "0"};
-            this.Limite3min.Location = new System.Drawing.Point(189, 113);
-            this.Limite3min.MaxLength = 32767;
-            this.Limite3min.Name = "Limite3min";
-            this.Limite3min.PasswordChar = '\0';
-            this.Limite3min.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.Limite3min.SelectedText = "";
-            this.Limite3min.SelectionLength = 0;
-            this.Limite3min.SelectionStart = 0;
-            this.Limite3min.ShortcutsEnabled = true;
-            this.Limite3min.Size = new System.Drawing.Size(75, 23);
-            this.Limite3min.Style = MetroFramework.MetroColorStyle.Red;
-            this.Limite3min.TabIndex = 16;
-            this.Limite3min.Text = "0";
-            this.Limite3min.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.Limite3min.UseSelectable = true;
-            this.Limite3min.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.Limite3min.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // Limite2min
-            // 
-            // 
-            // 
-            // 
-            this.Limite2min.CustomButton.Image = null;
-            this.Limite2min.CustomButton.Location = new System.Drawing.Point(53, 1);
-            this.Limite2min.CustomButton.Name = "";
-            this.Limite2min.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.Limite2min.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.Limite2min.CustomButton.TabIndex = 1;
-            this.Limite2min.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.Limite2min.CustomButton.UseSelectable = true;
-            this.Limite2min.CustomButton.Visible = false;
-            this.Limite2min.Lines = new string[] {
-        "0"};
-            this.Limite2min.Location = new System.Drawing.Point(189, 84);
-            this.Limite2min.MaxLength = 32767;
-            this.Limite2min.Name = "Limite2min";
-            this.Limite2min.PasswordChar = '\0';
-            this.Limite2min.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.Limite2min.SelectedText = "";
-            this.Limite2min.SelectionLength = 0;
-            this.Limite2min.SelectionStart = 0;
-            this.Limite2min.ShortcutsEnabled = true;
-            this.Limite2min.Size = new System.Drawing.Size(75, 23);
-            this.Limite2min.Style = MetroFramework.MetroColorStyle.Red;
-            this.Limite2min.TabIndex = 15;
-            this.Limite2min.Text = "0";
-            this.Limite2min.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.Limite2min.UseSelectable = true;
-            this.Limite2min.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.Limite2min.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // Limite1min
-            // 
-            // 
-            // 
-            // 
-            this.Limite1min.CustomButton.Image = null;
-            this.Limite1min.CustomButton.Location = new System.Drawing.Point(53, 1);
-            this.Limite1min.CustomButton.Name = "";
-            this.Limite1min.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.Limite1min.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.Limite1min.CustomButton.TabIndex = 1;
-            this.Limite1min.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.Limite1min.CustomButton.UseSelectable = true;
-            this.Limite1min.CustomButton.Visible = false;
-            this.Limite1min.Lines = new string[] {
-        "0"};
-            this.Limite1min.Location = new System.Drawing.Point(189, 54);
-            this.Limite1min.MaxLength = 32767;
-            this.Limite1min.Name = "Limite1min";
-            this.Limite1min.PasswordChar = '\0';
-            this.Limite1min.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.Limite1min.SelectedText = "";
-            this.Limite1min.SelectionLength = 0;
-            this.Limite1min.SelectionStart = 0;
-            this.Limite1min.ShortcutsEnabled = true;
-            this.Limite1min.Size = new System.Drawing.Size(75, 23);
-            this.Limite1min.Style = MetroFramework.MetroColorStyle.Red;
-            this.Limite1min.TabIndex = 14;
-            this.Limite1min.Text = "0";
-            this.Limite1min.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.Limite1min.UseSelectable = true;
-            this.Limite1min.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.Limite1min.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // Limite6max
-            // 
-            // 
-            // 
-            // 
-            this.Limite6max.CustomButton.Image = null;
-            this.Limite6max.CustomButton.Location = new System.Drawing.Point(53, 1);
-            this.Limite6max.CustomButton.Name = "";
-            this.Limite6max.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.Limite6max.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.Limite6max.CustomButton.TabIndex = 1;
-            this.Limite6max.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.Limite6max.CustomButton.UseSelectable = true;
-            this.Limite6max.CustomButton.Visible = false;
-            this.Limite6max.Lines = new string[] {
-        "180"};
-            this.Limite6max.Location = new System.Drawing.Point(108, 200);
-            this.Limite6max.MaxLength = 32767;
-            this.Limite6max.Name = "Limite6max";
-            this.Limite6max.PasswordChar = '\0';
-            this.Limite6max.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.Limite6max.SelectedText = "";
-            this.Limite6max.SelectionLength = 0;
-            this.Limite6max.SelectionStart = 0;
-            this.Limite6max.ShortcutsEnabled = true;
-            this.Limite6max.Size = new System.Drawing.Size(75, 23);
-            this.Limite6max.Style = MetroFramework.MetroColorStyle.Red;
-            this.Limite6max.TabIndex = 13;
-            this.Limite6max.Text = "180";
-            this.Limite6max.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.Limite6max.UseSelectable = true;
-            this.Limite6max.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.Limite6max.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // Limite5max
-            // 
-            // 
-            // 
-            // 
-            this.Limite5max.CustomButton.Image = null;
-            this.Limite5max.CustomButton.Location = new System.Drawing.Point(53, 1);
-            this.Limite5max.CustomButton.Name = "";
-            this.Limite5max.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.Limite5max.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.Limite5max.CustomButton.TabIndex = 1;
-            this.Limite5max.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.Limite5max.CustomButton.UseSelectable = true;
-            this.Limite5max.CustomButton.Visible = false;
-            this.Limite5max.Lines = new string[] {
-        "180"};
-            this.Limite5max.Location = new System.Drawing.Point(108, 171);
-            this.Limite5max.MaxLength = 32767;
-            this.Limite5max.Name = "Limite5max";
-            this.Limite5max.PasswordChar = '\0';
-            this.Limite5max.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.Limite5max.SelectedText = "";
-            this.Limite5max.SelectionLength = 0;
-            this.Limite5max.SelectionStart = 0;
-            this.Limite5max.ShortcutsEnabled = true;
-            this.Limite5max.Size = new System.Drawing.Size(75, 23);
-            this.Limite5max.Style = MetroFramework.MetroColorStyle.Red;
-            this.Limite5max.TabIndex = 12;
-            this.Limite5max.Text = "180";
-            this.Limite5max.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.Limite5max.UseSelectable = true;
-            this.Limite5max.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.Limite5max.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // Limite4max
-            // 
-            // 
-            // 
-            // 
-            this.Limite4max.CustomButton.Image = null;
-            this.Limite4max.CustomButton.Location = new System.Drawing.Point(53, 1);
-            this.Limite4max.CustomButton.Name = "";
-            this.Limite4max.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.Limite4max.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.Limite4max.CustomButton.TabIndex = 1;
-            this.Limite4max.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.Limite4max.CustomButton.UseSelectable = true;
-            this.Limite4max.CustomButton.Visible = false;
-            this.Limite4max.Lines = new string[] {
-        "180"};
-            this.Limite4max.Location = new System.Drawing.Point(108, 142);
-            this.Limite4max.MaxLength = 32767;
-            this.Limite4max.Name = "Limite4max";
-            this.Limite4max.PasswordChar = '\0';
-            this.Limite4max.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.Limite4max.SelectedText = "";
-            this.Limite4max.SelectionLength = 0;
-            this.Limite4max.SelectionStart = 0;
-            this.Limite4max.ShortcutsEnabled = true;
-            this.Limite4max.Size = new System.Drawing.Size(75, 23);
-            this.Limite4max.Style = MetroFramework.MetroColorStyle.Red;
-            this.Limite4max.TabIndex = 11;
-            this.Limite4max.Text = "180";
-            this.Limite4max.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.Limite4max.UseSelectable = true;
-            this.Limite4max.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.Limite4max.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // Limite3max
-            // 
-            // 
-            // 
-            // 
-            this.Limite3max.CustomButton.Image = null;
-            this.Limite3max.CustomButton.Location = new System.Drawing.Point(53, 1);
-            this.Limite3max.CustomButton.Name = "";
-            this.Limite3max.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.Limite3max.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.Limite3max.CustomButton.TabIndex = 1;
-            this.Limite3max.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.Limite3max.CustomButton.UseSelectable = true;
-            this.Limite3max.CustomButton.Visible = false;
-            this.Limite3max.Lines = new string[] {
-        "180"};
-            this.Limite3max.Location = new System.Drawing.Point(108, 113);
-            this.Limite3max.MaxLength = 32767;
-            this.Limite3max.Name = "Limite3max";
-            this.Limite3max.PasswordChar = '\0';
-            this.Limite3max.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.Limite3max.SelectedText = "";
-            this.Limite3max.SelectionLength = 0;
-            this.Limite3max.SelectionStart = 0;
-            this.Limite3max.ShortcutsEnabled = true;
-            this.Limite3max.Size = new System.Drawing.Size(75, 23);
-            this.Limite3max.Style = MetroFramework.MetroColorStyle.Red;
-            this.Limite3max.TabIndex = 10;
-            this.Limite3max.Text = "180";
-            this.Limite3max.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.Limite3max.UseSelectable = true;
-            this.Limite3max.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.Limite3max.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // Limite2max
-            // 
-            // 
-            // 
-            // 
-            this.Limite2max.CustomButton.Image = null;
-            this.Limite2max.CustomButton.Location = new System.Drawing.Point(53, 1);
-            this.Limite2max.CustomButton.Name = "";
-            this.Limite2max.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.Limite2max.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.Limite2max.CustomButton.TabIndex = 1;
-            this.Limite2max.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.Limite2max.CustomButton.UseSelectable = true;
-            this.Limite2max.CustomButton.Visible = false;
-            this.Limite2max.Lines = new string[] {
-        "180"};
-            this.Limite2max.Location = new System.Drawing.Point(108, 84);
-            this.Limite2max.MaxLength = 32767;
-            this.Limite2max.Name = "Limite2max";
-            this.Limite2max.PasswordChar = '\0';
-            this.Limite2max.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.Limite2max.SelectedText = "";
-            this.Limite2max.SelectionLength = 0;
-            this.Limite2max.SelectionStart = 0;
-            this.Limite2max.ShortcutsEnabled = true;
-            this.Limite2max.Size = new System.Drawing.Size(75, 23);
-            this.Limite2max.Style = MetroFramework.MetroColorStyle.Red;
-            this.Limite2max.TabIndex = 9;
-            this.Limite2max.Text = "180";
-            this.Limite2max.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.Limite2max.UseSelectable = true;
-            this.Limite2max.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.Limite2max.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // Limite1max
-            // 
-            // 
-            // 
-            // 
-            this.Limite1max.CustomButton.Image = null;
-            this.Limite1max.CustomButton.Location = new System.Drawing.Point(53, 1);
-            this.Limite1max.CustomButton.Name = "";
-            this.Limite1max.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.Limite1max.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.Limite1max.CustomButton.TabIndex = 1;
-            this.Limite1max.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.Limite1max.CustomButton.UseSelectable = true;
-            this.Limite1max.CustomButton.Visible = false;
-            this.Limite1max.Lines = new string[] {
-        "180"};
-            this.Limite1max.Location = new System.Drawing.Point(108, 54);
-            this.Limite1max.MaxLength = 32767;
-            this.Limite1max.Name = "Limite1max";
-            this.Limite1max.PasswordChar = '\0';
-            this.Limite1max.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.Limite1max.SelectedText = "";
-            this.Limite1max.SelectionLength = 0;
-            this.Limite1max.SelectionStart = 0;
-            this.Limite1max.ShortcutsEnabled = true;
-            this.Limite1max.Size = new System.Drawing.Size(75, 23);
-            this.Limite1max.Style = MetroFramework.MetroColorStyle.Red;
-            this.Limite1max.TabIndex = 8;
-            this.Limite1max.Text = "180";
-            this.Limite1max.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.Limite1max.UseSelectable = true;
-            this.Limite1max.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.Limite1max.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // LimiteAsse6
-            // 
-            this.LimiteAsse6.AutoSize = true;
-            this.LimiteAsse6.Location = new System.Drawing.Point(56, 200);
-            this.LimiteAsse6.Name = "LimiteAsse6";
-            this.LimiteAsse6.Size = new System.Drawing.Size(46, 19);
-            this.LimiteAsse6.TabIndex = 7;
-            this.LimiteAsse6.Text = "Asse 6";
-            this.LimiteAsse6.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // LimiteAsse5
-            // 
-            this.LimiteAsse5.AutoSize = true;
-            this.LimiteAsse5.Location = new System.Drawing.Point(56, 171);
-            this.LimiteAsse5.Name = "LimiteAsse5";
-            this.LimiteAsse5.Size = new System.Drawing.Size(46, 19);
-            this.LimiteAsse5.TabIndex = 6;
-            this.LimiteAsse5.Text = "Asse 5";
-            this.LimiteAsse5.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // LimiteAsse4
-            // 
-            this.LimiteAsse4.AutoSize = true;
-            this.LimiteAsse4.Location = new System.Drawing.Point(56, 143);
-            this.LimiteAsse4.Name = "LimiteAsse4";
-            this.LimiteAsse4.Size = new System.Drawing.Size(46, 19);
-            this.LimiteAsse4.TabIndex = 5;
-            this.LimiteAsse4.Text = "Asse 4";
-            this.LimiteAsse4.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // LimiteAsse3
-            // 
-            this.LimiteAsse3.AutoSize = true;
-            this.LimiteAsse3.Location = new System.Drawing.Point(56, 113);
-            this.LimiteAsse3.Name = "LimiteAsse3";
-            this.LimiteAsse3.Size = new System.Drawing.Size(46, 19);
-            this.LimiteAsse3.TabIndex = 4;
-            this.LimiteAsse3.Text = "Asse 3";
-            this.LimiteAsse3.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // LimiteAsse2
-            // 
-            this.LimiteAsse2.AutoSize = true;
-            this.LimiteAsse2.Location = new System.Drawing.Point(56, 84);
-            this.LimiteAsse2.Name = "LimiteAsse2";
-            this.LimiteAsse2.Size = new System.Drawing.Size(46, 19);
-            this.LimiteAsse2.TabIndex = 3;
-            this.LimiteAsse2.Text = "Asse 2";
-            this.LimiteAsse2.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // LimiteAsse1
-            // 
-            this.LimiteAsse1.AutoSize = true;
-            this.LimiteAsse1.Location = new System.Drawing.Point(56, 54);
-            this.LimiteAsse1.Name = "LimiteAsse1";
-            this.LimiteAsse1.Size = new System.Drawing.Size(46, 19);
-            this.LimiteAsse1.TabIndex = 2;
-            this.LimiteAsse1.Text = "Asse 1";
-            this.LimiteAsse1.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // metroTabPage1
             // 
@@ -673,7 +143,7 @@
             this.metroTabPage1.Name = "metroTabPage1";
             this.metroTabPage1.Size = new System.Drawing.Size(366, 268);
             this.metroTabPage1.TabIndex = 0;
-            this.metroTabPage1.Text = "Modello Matematico              ";
+            this.metroTabPage1.Text = "Math Model                      ";
             this.metroTabPage1.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTabPage1.VerticalScrollbarBarColor = true;
             this.metroTabPage1.VerticalScrollbarHighlightOnWheel = false;
@@ -684,10 +154,10 @@
             this.Modifiche2D.AutoSize = true;
             this.Modifiche2D.Location = new System.Drawing.Point(45, 229);
             this.Modifiche2D.Name = "Modifiche2D";
-            this.Modifiche2D.Size = new System.Drawing.Size(179, 15);
+            this.Modifiche2D.Size = new System.Drawing.Size(164, 15);
             this.Modifiche2D.Style = MetroFramework.MetroColorStyle.Red;
             this.Modifiche2D.TabIndex = 32;
-            this.Modifiche2D.Text = "Abilita modifiche (visione 2D)";
+            this.Modifiche2D.Text = "Enable changes (vision 2D)";
             this.Modifiche2D.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Modifiche2D.UseSelectable = true;
             this.Modifiche2D.CheckedChanged += new System.EventHandler(this.Modifiche2D_CheckedChanged);
@@ -697,10 +167,10 @@
             this.metroLabel14.AutoSize = true;
             this.metroLabel14.Location = new System.Drawing.Point(235, 181);
             this.metroLabel14.Name = "metroLabel14";
-            this.metroLabel14.Size = new System.Drawing.Size(35, 19);
+            this.metroLabel14.Size = new System.Drawing.Size(33, 19);
             this.metroLabel14.Style = MetroFramework.MetroColorStyle.Red;
             this.metroLabel14.TabIndex = 31;
-            this.metroLabel14.Text = "Tool";
+            this.metroLabel14.Text = "TCP";
             this.metroLabel14.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.metroLabel14.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
@@ -741,10 +211,10 @@
             this.metroLabel12.AutoSize = true;
             this.metroLabel12.Location = new System.Drawing.Point(236, 142);
             this.metroLabel12.Name = "metroLabel12";
-            this.metroLabel12.Size = new System.Drawing.Size(34, 19);
+            this.metroLabel12.Size = new System.Drawing.Size(33, 19);
             this.metroLabel12.Style = MetroFramework.MetroColorStyle.Red;
             this.metroLabel12.TabIndex = 29;
-            this.metroLabel12.Text = "Asta";
+            this.metroLabel12.Text = "Rod";
             this.metroLabel12.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.metroLabel12.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
@@ -753,10 +223,10 @@
             this.metroLabel11.AutoSize = true;
             this.metroLabel11.Location = new System.Drawing.Point(224, 102);
             this.metroLabel11.Name = "metroLabel11";
-            this.metroLabel11.Size = new System.Drawing.Size(46, 19);
+            this.metroLabel11.Size = new System.Drawing.Size(51, 19);
             this.metroLabel11.Style = MetroFramework.MetroColorStyle.Red;
             this.metroLabel11.TabIndex = 28;
-            this.metroLabel11.Text = "Leva 2";
+            this.metroLabel11.Text = "Lever 2";
             this.metroLabel11.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.metroLabel11.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
@@ -765,10 +235,10 @@
             this.metroLabel10.AutoSize = true;
             this.metroLabel10.Location = new System.Drawing.Point(224, 60);
             this.metroLabel10.Name = "metroLabel10";
-            this.metroLabel10.Size = new System.Drawing.Size(46, 19);
+            this.metroLabel10.Size = new System.Drawing.Size(51, 19);
             this.metroLabel10.Style = MetroFramework.MetroColorStyle.Red;
             this.metroLabel10.TabIndex = 27;
-            this.metroLabel10.Text = "Leva 1";
+            this.metroLabel10.Text = "Lever 1";
             this.metroLabel10.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.metroLabel10.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
@@ -948,10 +418,10 @@
             this.metroLabel3.AutoSize = true;
             this.metroLabel3.Location = new System.Drawing.Point(23, 22);
             this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(185, 19);
+            this.metroLabel3.Size = new System.Drawing.Size(194, 19);
             this.metroLabel3.Style = MetroFramework.MetroColorStyle.Red;
             this.metroLabel3.TabIndex = 18;
-            this.metroLabel3.Text = "Parametri Denavit Hartenberg";
+            this.metroLabel3.Text = "Parameters Denavit Hartenberg";
             this.metroLabel3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.metroLabel3.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
@@ -1401,6 +871,536 @@
             this.D1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.D1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
+            // metroTabPage2
+            // 
+            this.metroTabPage2.Controls.Add(this.metroLabel16);
+            this.metroTabPage2.Controls.Add(this.metroLabel15);
+            this.metroTabPage2.Controls.Add(this.Limite6min);
+            this.metroTabPage2.Controls.Add(this.Limite5min);
+            this.metroTabPage2.Controls.Add(this.Limite4min);
+            this.metroTabPage2.Controls.Add(this.Limite3min);
+            this.metroTabPage2.Controls.Add(this.Limite2min);
+            this.metroTabPage2.Controls.Add(this.Limite1min);
+            this.metroTabPage2.Controls.Add(this.Limite6max);
+            this.metroTabPage2.Controls.Add(this.Limite5max);
+            this.metroTabPage2.Controls.Add(this.Limite4max);
+            this.metroTabPage2.Controls.Add(this.Limite3max);
+            this.metroTabPage2.Controls.Add(this.Limite2max);
+            this.metroTabPage2.Controls.Add(this.Limite1max);
+            this.metroTabPage2.Controls.Add(this.LimiteAsse6);
+            this.metroTabPage2.Controls.Add(this.LimiteAsse5);
+            this.metroTabPage2.Controls.Add(this.LimiteAsse4);
+            this.metroTabPage2.Controls.Add(this.LimiteAsse3);
+            this.metroTabPage2.Controls.Add(this.LimiteAsse2);
+            this.metroTabPage2.Controls.Add(this.LimiteAsse1);
+            this.metroTabPage2.HorizontalScrollbarBarColor = true;
+            this.metroTabPage2.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage2.HorizontalScrollbarSize = 10;
+            this.metroTabPage2.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage2.Name = "metroTabPage2";
+            this.metroTabPage2.Size = new System.Drawing.Size(366, 268);
+            this.metroTabPage2.TabIndex = 1;
+            this.metroTabPage2.Text = "Limit                                 ";
+            this.metroTabPage2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroTabPage2.VerticalScrollbarBarColor = true;
+            this.metroTabPage2.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage2.VerticalScrollbarSize = 10;
+            this.metroTabPage2.Click += new System.EventHandler(this.metroTabPage2_Click);
+            // 
+            // metroLabel16
+            // 
+            this.metroLabel16.AutoSize = true;
+            this.metroLabel16.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel16.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.metroLabel16.Location = new System.Drawing.Point(208, 26);
+            this.metroLabel16.Name = "metroLabel16";
+            this.metroLabel16.Size = new System.Drawing.Size(41, 25);
+            this.metroLabel16.Style = MetroFramework.MetroColorStyle.Silver;
+            this.metroLabel16.TabIndex = 21;
+            this.metroLabel16.Text = "Min";
+            this.metroLabel16.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroLabel15
+            // 
+            this.metroLabel15.AutoSize = true;
+            this.metroLabel15.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel15.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.metroLabel15.Location = new System.Drawing.Point(129, 26);
+            this.metroLabel15.Name = "metroLabel15";
+            this.metroLabel15.Size = new System.Drawing.Size(44, 25);
+            this.metroLabel15.Style = MetroFramework.MetroColorStyle.Silver;
+            this.metroLabel15.TabIndex = 20;
+            this.metroLabel15.Text = "Max";
+            this.metroLabel15.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // Limite6min
+            // 
+            // 
+            // 
+            // 
+            this.Limite6min.CustomButton.Image = null;
+            this.Limite6min.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.Limite6min.CustomButton.Name = "";
+            this.Limite6min.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.Limite6min.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.Limite6min.CustomButton.TabIndex = 1;
+            this.Limite6min.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.Limite6min.CustomButton.UseSelectable = true;
+            this.Limite6min.CustomButton.Visible = false;
+            this.Limite6min.Lines = new string[] {
+        "0"};
+            this.Limite6min.Location = new System.Drawing.Point(189, 200);
+            this.Limite6min.MaxLength = 32767;
+            this.Limite6min.Name = "Limite6min";
+            this.Limite6min.PasswordChar = '\0';
+            this.Limite6min.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.Limite6min.SelectedText = "";
+            this.Limite6min.SelectionLength = 0;
+            this.Limite6min.SelectionStart = 0;
+            this.Limite6min.ShortcutsEnabled = true;
+            this.Limite6min.Size = new System.Drawing.Size(75, 23);
+            this.Limite6min.Style = MetroFramework.MetroColorStyle.Red;
+            this.Limite6min.TabIndex = 19;
+            this.Limite6min.Text = "0";
+            this.Limite6min.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Limite6min.UseSelectable = true;
+            this.Limite6min.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.Limite6min.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // Limite5min
+            // 
+            // 
+            // 
+            // 
+            this.Limite5min.CustomButton.Image = null;
+            this.Limite5min.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.Limite5min.CustomButton.Name = "";
+            this.Limite5min.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.Limite5min.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.Limite5min.CustomButton.TabIndex = 1;
+            this.Limite5min.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.Limite5min.CustomButton.UseSelectable = true;
+            this.Limite5min.CustomButton.Visible = false;
+            this.Limite5min.Lines = new string[] {
+        "0"};
+            this.Limite5min.Location = new System.Drawing.Point(189, 171);
+            this.Limite5min.MaxLength = 32767;
+            this.Limite5min.Name = "Limite5min";
+            this.Limite5min.PasswordChar = '\0';
+            this.Limite5min.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.Limite5min.SelectedText = "";
+            this.Limite5min.SelectionLength = 0;
+            this.Limite5min.SelectionStart = 0;
+            this.Limite5min.ShortcutsEnabled = true;
+            this.Limite5min.Size = new System.Drawing.Size(75, 23);
+            this.Limite5min.Style = MetroFramework.MetroColorStyle.Red;
+            this.Limite5min.TabIndex = 18;
+            this.Limite5min.Text = "0";
+            this.Limite5min.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Limite5min.UseSelectable = true;
+            this.Limite5min.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.Limite5min.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // Limite4min
+            // 
+            // 
+            // 
+            // 
+            this.Limite4min.CustomButton.Image = null;
+            this.Limite4min.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.Limite4min.CustomButton.Name = "";
+            this.Limite4min.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.Limite4min.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.Limite4min.CustomButton.TabIndex = 1;
+            this.Limite4min.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.Limite4min.CustomButton.UseSelectable = true;
+            this.Limite4min.CustomButton.Visible = false;
+            this.Limite4min.Lines = new string[] {
+        "0"};
+            this.Limite4min.Location = new System.Drawing.Point(189, 142);
+            this.Limite4min.MaxLength = 32767;
+            this.Limite4min.Name = "Limite4min";
+            this.Limite4min.PasswordChar = '\0';
+            this.Limite4min.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.Limite4min.SelectedText = "";
+            this.Limite4min.SelectionLength = 0;
+            this.Limite4min.SelectionStart = 0;
+            this.Limite4min.ShortcutsEnabled = true;
+            this.Limite4min.Size = new System.Drawing.Size(75, 23);
+            this.Limite4min.Style = MetroFramework.MetroColorStyle.Red;
+            this.Limite4min.TabIndex = 17;
+            this.Limite4min.Text = "0";
+            this.Limite4min.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Limite4min.UseSelectable = true;
+            this.Limite4min.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.Limite4min.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // Limite3min
+            // 
+            // 
+            // 
+            // 
+            this.Limite3min.CustomButton.Image = null;
+            this.Limite3min.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.Limite3min.CustomButton.Name = "";
+            this.Limite3min.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.Limite3min.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.Limite3min.CustomButton.TabIndex = 1;
+            this.Limite3min.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.Limite3min.CustomButton.UseSelectable = true;
+            this.Limite3min.CustomButton.Visible = false;
+            this.Limite3min.Lines = new string[] {
+        "0"};
+            this.Limite3min.Location = new System.Drawing.Point(189, 113);
+            this.Limite3min.MaxLength = 32767;
+            this.Limite3min.Name = "Limite3min";
+            this.Limite3min.PasswordChar = '\0';
+            this.Limite3min.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.Limite3min.SelectedText = "";
+            this.Limite3min.SelectionLength = 0;
+            this.Limite3min.SelectionStart = 0;
+            this.Limite3min.ShortcutsEnabled = true;
+            this.Limite3min.Size = new System.Drawing.Size(75, 23);
+            this.Limite3min.Style = MetroFramework.MetroColorStyle.Red;
+            this.Limite3min.TabIndex = 16;
+            this.Limite3min.Text = "0";
+            this.Limite3min.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Limite3min.UseSelectable = true;
+            this.Limite3min.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.Limite3min.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // Limite2min
+            // 
+            // 
+            // 
+            // 
+            this.Limite2min.CustomButton.Image = null;
+            this.Limite2min.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.Limite2min.CustomButton.Name = "";
+            this.Limite2min.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.Limite2min.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.Limite2min.CustomButton.TabIndex = 1;
+            this.Limite2min.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.Limite2min.CustomButton.UseSelectable = true;
+            this.Limite2min.CustomButton.Visible = false;
+            this.Limite2min.Lines = new string[] {
+        "0"};
+            this.Limite2min.Location = new System.Drawing.Point(189, 84);
+            this.Limite2min.MaxLength = 32767;
+            this.Limite2min.Name = "Limite2min";
+            this.Limite2min.PasswordChar = '\0';
+            this.Limite2min.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.Limite2min.SelectedText = "";
+            this.Limite2min.SelectionLength = 0;
+            this.Limite2min.SelectionStart = 0;
+            this.Limite2min.ShortcutsEnabled = true;
+            this.Limite2min.Size = new System.Drawing.Size(75, 23);
+            this.Limite2min.Style = MetroFramework.MetroColorStyle.Red;
+            this.Limite2min.TabIndex = 15;
+            this.Limite2min.Text = "0";
+            this.Limite2min.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Limite2min.UseSelectable = true;
+            this.Limite2min.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.Limite2min.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // Limite1min
+            // 
+            // 
+            // 
+            // 
+            this.Limite1min.CustomButton.Image = null;
+            this.Limite1min.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.Limite1min.CustomButton.Name = "";
+            this.Limite1min.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.Limite1min.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.Limite1min.CustomButton.TabIndex = 1;
+            this.Limite1min.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.Limite1min.CustomButton.UseSelectable = true;
+            this.Limite1min.CustomButton.Visible = false;
+            this.Limite1min.Lines = new string[] {
+        "0"};
+            this.Limite1min.Location = new System.Drawing.Point(189, 54);
+            this.Limite1min.MaxLength = 32767;
+            this.Limite1min.Name = "Limite1min";
+            this.Limite1min.PasswordChar = '\0';
+            this.Limite1min.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.Limite1min.SelectedText = "";
+            this.Limite1min.SelectionLength = 0;
+            this.Limite1min.SelectionStart = 0;
+            this.Limite1min.ShortcutsEnabled = true;
+            this.Limite1min.Size = new System.Drawing.Size(75, 23);
+            this.Limite1min.Style = MetroFramework.MetroColorStyle.Red;
+            this.Limite1min.TabIndex = 14;
+            this.Limite1min.Text = "0";
+            this.Limite1min.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Limite1min.UseSelectable = true;
+            this.Limite1min.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.Limite1min.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // Limite6max
+            // 
+            // 
+            // 
+            // 
+            this.Limite6max.CustomButton.Image = null;
+            this.Limite6max.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.Limite6max.CustomButton.Name = "";
+            this.Limite6max.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.Limite6max.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.Limite6max.CustomButton.TabIndex = 1;
+            this.Limite6max.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.Limite6max.CustomButton.UseSelectable = true;
+            this.Limite6max.CustomButton.Visible = false;
+            this.Limite6max.Lines = new string[] {
+        "180"};
+            this.Limite6max.Location = new System.Drawing.Point(108, 200);
+            this.Limite6max.MaxLength = 32767;
+            this.Limite6max.Name = "Limite6max";
+            this.Limite6max.PasswordChar = '\0';
+            this.Limite6max.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.Limite6max.SelectedText = "";
+            this.Limite6max.SelectionLength = 0;
+            this.Limite6max.SelectionStart = 0;
+            this.Limite6max.ShortcutsEnabled = true;
+            this.Limite6max.Size = new System.Drawing.Size(75, 23);
+            this.Limite6max.Style = MetroFramework.MetroColorStyle.Red;
+            this.Limite6max.TabIndex = 13;
+            this.Limite6max.Text = "180";
+            this.Limite6max.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Limite6max.UseSelectable = true;
+            this.Limite6max.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.Limite6max.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // Limite5max
+            // 
+            // 
+            // 
+            // 
+            this.Limite5max.CustomButton.Image = null;
+            this.Limite5max.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.Limite5max.CustomButton.Name = "";
+            this.Limite5max.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.Limite5max.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.Limite5max.CustomButton.TabIndex = 1;
+            this.Limite5max.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.Limite5max.CustomButton.UseSelectable = true;
+            this.Limite5max.CustomButton.Visible = false;
+            this.Limite5max.Lines = new string[] {
+        "180"};
+            this.Limite5max.Location = new System.Drawing.Point(108, 171);
+            this.Limite5max.MaxLength = 32767;
+            this.Limite5max.Name = "Limite5max";
+            this.Limite5max.PasswordChar = '\0';
+            this.Limite5max.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.Limite5max.SelectedText = "";
+            this.Limite5max.SelectionLength = 0;
+            this.Limite5max.SelectionStart = 0;
+            this.Limite5max.ShortcutsEnabled = true;
+            this.Limite5max.Size = new System.Drawing.Size(75, 23);
+            this.Limite5max.Style = MetroFramework.MetroColorStyle.Red;
+            this.Limite5max.TabIndex = 12;
+            this.Limite5max.Text = "180";
+            this.Limite5max.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Limite5max.UseSelectable = true;
+            this.Limite5max.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.Limite5max.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // Limite4max
+            // 
+            // 
+            // 
+            // 
+            this.Limite4max.CustomButton.Image = null;
+            this.Limite4max.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.Limite4max.CustomButton.Name = "";
+            this.Limite4max.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.Limite4max.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.Limite4max.CustomButton.TabIndex = 1;
+            this.Limite4max.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.Limite4max.CustomButton.UseSelectable = true;
+            this.Limite4max.CustomButton.Visible = false;
+            this.Limite4max.Lines = new string[] {
+        "180"};
+            this.Limite4max.Location = new System.Drawing.Point(108, 142);
+            this.Limite4max.MaxLength = 32767;
+            this.Limite4max.Name = "Limite4max";
+            this.Limite4max.PasswordChar = '\0';
+            this.Limite4max.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.Limite4max.SelectedText = "";
+            this.Limite4max.SelectionLength = 0;
+            this.Limite4max.SelectionStart = 0;
+            this.Limite4max.ShortcutsEnabled = true;
+            this.Limite4max.Size = new System.Drawing.Size(75, 23);
+            this.Limite4max.Style = MetroFramework.MetroColorStyle.Red;
+            this.Limite4max.TabIndex = 11;
+            this.Limite4max.Text = "180";
+            this.Limite4max.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Limite4max.UseSelectable = true;
+            this.Limite4max.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.Limite4max.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // Limite3max
+            // 
+            // 
+            // 
+            // 
+            this.Limite3max.CustomButton.Image = null;
+            this.Limite3max.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.Limite3max.CustomButton.Name = "";
+            this.Limite3max.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.Limite3max.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.Limite3max.CustomButton.TabIndex = 1;
+            this.Limite3max.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.Limite3max.CustomButton.UseSelectable = true;
+            this.Limite3max.CustomButton.Visible = false;
+            this.Limite3max.Lines = new string[] {
+        "180"};
+            this.Limite3max.Location = new System.Drawing.Point(108, 113);
+            this.Limite3max.MaxLength = 32767;
+            this.Limite3max.Name = "Limite3max";
+            this.Limite3max.PasswordChar = '\0';
+            this.Limite3max.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.Limite3max.SelectedText = "";
+            this.Limite3max.SelectionLength = 0;
+            this.Limite3max.SelectionStart = 0;
+            this.Limite3max.ShortcutsEnabled = true;
+            this.Limite3max.Size = new System.Drawing.Size(75, 23);
+            this.Limite3max.Style = MetroFramework.MetroColorStyle.Red;
+            this.Limite3max.TabIndex = 10;
+            this.Limite3max.Text = "180";
+            this.Limite3max.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Limite3max.UseSelectable = true;
+            this.Limite3max.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.Limite3max.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // Limite2max
+            // 
+            // 
+            // 
+            // 
+            this.Limite2max.CustomButton.Image = null;
+            this.Limite2max.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.Limite2max.CustomButton.Name = "";
+            this.Limite2max.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.Limite2max.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.Limite2max.CustomButton.TabIndex = 1;
+            this.Limite2max.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.Limite2max.CustomButton.UseSelectable = true;
+            this.Limite2max.CustomButton.Visible = false;
+            this.Limite2max.Lines = new string[] {
+        "180"};
+            this.Limite2max.Location = new System.Drawing.Point(108, 84);
+            this.Limite2max.MaxLength = 32767;
+            this.Limite2max.Name = "Limite2max";
+            this.Limite2max.PasswordChar = '\0';
+            this.Limite2max.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.Limite2max.SelectedText = "";
+            this.Limite2max.SelectionLength = 0;
+            this.Limite2max.SelectionStart = 0;
+            this.Limite2max.ShortcutsEnabled = true;
+            this.Limite2max.Size = new System.Drawing.Size(75, 23);
+            this.Limite2max.Style = MetroFramework.MetroColorStyle.Red;
+            this.Limite2max.TabIndex = 9;
+            this.Limite2max.Text = "180";
+            this.Limite2max.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Limite2max.UseSelectable = true;
+            this.Limite2max.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.Limite2max.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // Limite1max
+            // 
+            // 
+            // 
+            // 
+            this.Limite1max.CustomButton.Image = null;
+            this.Limite1max.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.Limite1max.CustomButton.Name = "";
+            this.Limite1max.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.Limite1max.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.Limite1max.CustomButton.TabIndex = 1;
+            this.Limite1max.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.Limite1max.CustomButton.UseSelectable = true;
+            this.Limite1max.CustomButton.Visible = false;
+            this.Limite1max.Lines = new string[] {
+        "180"};
+            this.Limite1max.Location = new System.Drawing.Point(108, 54);
+            this.Limite1max.MaxLength = 32767;
+            this.Limite1max.Name = "Limite1max";
+            this.Limite1max.PasswordChar = '\0';
+            this.Limite1max.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.Limite1max.SelectedText = "";
+            this.Limite1max.SelectionLength = 0;
+            this.Limite1max.SelectionStart = 0;
+            this.Limite1max.ShortcutsEnabled = true;
+            this.Limite1max.Size = new System.Drawing.Size(75, 23);
+            this.Limite1max.Style = MetroFramework.MetroColorStyle.Red;
+            this.Limite1max.TabIndex = 8;
+            this.Limite1max.Text = "180";
+            this.Limite1max.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Limite1max.UseSelectable = true;
+            this.Limite1max.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.Limite1max.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // LimiteAsse6
+            // 
+            this.LimiteAsse6.AutoSize = true;
+            this.LimiteAsse6.Location = new System.Drawing.Point(56, 200);
+            this.LimiteAsse6.Name = "LimiteAsse6";
+            this.LimiteAsse6.Size = new System.Drawing.Size(35, 19);
+            this.LimiteAsse6.TabIndex = 7;
+            this.LimiteAsse6.Text = "Ax 6";
+            this.LimiteAsse6.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // LimiteAsse5
+            // 
+            this.LimiteAsse5.AutoSize = true;
+            this.LimiteAsse5.Location = new System.Drawing.Point(56, 171);
+            this.LimiteAsse5.Name = "LimiteAsse5";
+            this.LimiteAsse5.Size = new System.Drawing.Size(35, 19);
+            this.LimiteAsse5.TabIndex = 6;
+            this.LimiteAsse5.Text = "Ax 5";
+            this.LimiteAsse5.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // LimiteAsse4
+            // 
+            this.LimiteAsse4.AutoSize = true;
+            this.LimiteAsse4.Location = new System.Drawing.Point(56, 143);
+            this.LimiteAsse4.Name = "LimiteAsse4";
+            this.LimiteAsse4.Size = new System.Drawing.Size(35, 19);
+            this.LimiteAsse4.TabIndex = 5;
+            this.LimiteAsse4.Text = "Ax 4";
+            this.LimiteAsse4.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // LimiteAsse3
+            // 
+            this.LimiteAsse3.AutoSize = true;
+            this.LimiteAsse3.Location = new System.Drawing.Point(56, 113);
+            this.LimiteAsse3.Name = "LimiteAsse3";
+            this.LimiteAsse3.Size = new System.Drawing.Size(35, 19);
+            this.LimiteAsse3.TabIndex = 4;
+            this.LimiteAsse3.Text = "Ax 3";
+            this.LimiteAsse3.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // LimiteAsse2
+            // 
+            this.LimiteAsse2.AutoSize = true;
+            this.LimiteAsse2.Location = new System.Drawing.Point(56, 84);
+            this.LimiteAsse2.Name = "LimiteAsse2";
+            this.LimiteAsse2.Size = new System.Drawing.Size(35, 19);
+            this.LimiteAsse2.TabIndex = 3;
+            this.LimiteAsse2.Text = "Ax 2";
+            this.LimiteAsse2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // LimiteAsse1
+            // 
+            this.LimiteAsse1.AutoSize = true;
+            this.LimiteAsse1.Location = new System.Drawing.Point(56, 54);
+            this.LimiteAsse1.Name = "LimiteAsse1";
+            this.LimiteAsse1.Size = new System.Drawing.Size(35, 19);
+            this.LimiteAsse1.TabIndex = 2;
+            this.LimiteAsse1.Text = "Ax 1";
+            this.LimiteAsse1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
             // metroButton1
             // 
             this.metroButton1.DialogResult = System.Windows.Forms.DialogResult.OK;
@@ -1421,7 +1421,7 @@
             this.metroButton2.Size = new System.Drawing.Size(102, 23);
             this.metroButton2.Style = MetroFramework.MetroColorStyle.Red;
             this.metroButton2.TabIndex = 2;
-            this.metroButton2.Text = "Chiudi";
+            this.metroButton2.Text = "Close";
             this.metroButton2.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton2.UseSelectable = true;
             this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
@@ -1466,16 +1466,16 @@
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.None;
             this.Style = MetroFramework.MetroColorStyle.Red;
-            this.Text = "Impostazioni";
+            this.Text = "Settings";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Load += new System.EventHandler(this.Form2_Load);
             this.Limiti.ResumeLayout(false);
-            this.metroTabPage2.ResumeLayout(false);
-            this.metroTabPage2.PerformLayout();
             this.metroTabPage1.ResumeLayout(false);
             this.metroTabPage1.PerformLayout();
             this.metroTile1.ResumeLayout(false);
             this.metroTile1.PerformLayout();
+            this.metroTabPage2.ResumeLayout(false);
+            this.metroTabPage2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
